@@ -29,6 +29,18 @@ const Sdata = [
         link : "#",
         shortInfo : "This is short description for ANAMIKA"
     },
+    {
+        imgSrc : "https://picsum.photos/seed/picsum/200/200",
+        title : "GOT",
+        link : "#",
+        shortInfo : "This is short description for GOT"
+    },
+    {
+        imgSrc : "https://picsum.photos/id/237/200/200",
+        title : "Special OPPs",
+        link :  "#",
+        shortInfo : "This is short description for Special OPPs"
+    }
 ];
 
 export default Sdata;
