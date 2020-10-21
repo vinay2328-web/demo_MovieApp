@@ -1,46 +1,60 @@
 const Sdata = [
     {
-        imgSrc : "https://picsum.photos/200/200?grayscale",
+        id: 1,
+        imgSrc : "https://picsum.photos/250/200?grayscale",
         title : "DARK",
         link :  "#",
-        shortInfo : "This is short description for DARK"
+        shortInfo : "Netflix Original Series"
     },
     {
-        imgSrc : "https://picsum.photos/seed/picsum/200/200",
+        id: 2,
+        imgSrc : "https://picsum.photos/seed/picsum/250/200",
         title : "GOT",
         link : "#",
-        shortInfo : "This is short description for GOT"
+        shortInfo : "Amazon Prime Series"
     },
     {
-        imgSrc : "https://picsum.photos/200/200/?blur",
+        id: 3,
+        imgSrc : "https://picsum.photos/250/200/?blur",
+        title : "ASUR",
+        link : "#",
+        shortInfo : "Netflix Original Series"
+    },
+    {
+       id: 4,
+        imgSrc : "https://picsum.photos/250/200",
+        title : "Special OPPs",
+        link :  "#",
+        shortInfo : "Amazon Prime Series"
+    },
+    {
+        id: 5,
+        imgSrc : "https://picsum.photos/250/200/?blur=2",
+        title : "ANAMIKA",
+        link : "#",
+        shortInfo : "This is short description for Anamika"
+    },
+    {
+        id: 1,
+        imgSrc : "https://picsum.photos/250/200?grayscale",
+        title : "DARK",
+        link :  "#",
+        shortInfo : "Amazon Prime Series"
+    },
+    {
+        id: 2,
+        imgSrc : "https://picsum.photos/seed/picsum/250/200",
+        title : "GOT",
+        link : "#",
+        shortInfo : "Netflix Original Series"
+    },
+    {
+        id: 3,
+        imgSrc : "https://picsum.photos/250/200/?blur",
         title : "ASUR",
         link : "#",
         shortInfo : "This is short description for ASUR"
     },
-    {
-        imgSrc : "https://picsum.photos/id/237/200/200",
-        title : "Special OPPs",
-        link :  "#",
-        shortInfo : "This is short description for Special OPPs"
-    },
-    {
-        imgSrc : "https://picsum.photos/200/300/?blur=2",
-        title : "ANAMIKA",
-        link : "#",
-        shortInfo : "This is short description for ANAMIKA"
-    },
-    {
-        imgSrc : "https://picsum.photos/seed/picsum/200/200",
-        title : "GOT",
-        link : "#",
-        shortInfo : "This is short description for GOT"
-    },
-    {
-        imgSrc : "https://picsum.photos/id/237/200/200",
-        title : "Special OPPs",
-        link :  "#",
-        shortInfo : "This is short description for Special OPPs"
-    }
 ];
 
 export default Sdata;

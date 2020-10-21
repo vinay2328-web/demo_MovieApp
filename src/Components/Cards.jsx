@@ -1,16 +1,17 @@
 import React from 'react';
+import Images from './Images';
 
 function Cards(props) {
-   // console.log(props);
+    // console.log(props);
     return (
         <>
             <div className="Cards">
+                <Images imgSrc={props.imgSrc} />
                 <div className="Card">
-                    <img src={props.imgSrc} alt="photos" />
+                    <p>{props.shortInfo}</p>
+                    <h3>{props.title}</h3>
+                    <a href={props.link} >Watch Now</a>
                 </div>
-                <h3>{props.title}</h3>
-                <p>{props.shortInfo}</p>
-                <a href={props.link} target="_blank">Watch Now</a>
             </div>
         </>
     );
